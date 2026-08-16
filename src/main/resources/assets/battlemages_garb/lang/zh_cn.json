@@ -1,0 +1,69 @@
+{
+  "mod.battlemages_garb": "法术战袍",
+
+  "affix.battlemages_garb:school_power": "学派精通",
+  "affix.battlemages_garb:school_power.suffix": "学派精通",
+  "affix.battlemages_garb:school_power.desc": "%s %s",
+
+  "affix.battlemages_garb:school_power_greater": "学派精通·进阶",
+  "affix.battlemages_garb:school_power_greater.suffix": "学派精通·进阶",
+  "affix.battlemages_garb:school_power_greater.desc": "%s %s",
+
+  "affix.battlemages_garb:school_resist": "学派抗性",
+  "affix.battlemages_garb:school_resist.suffix": "学派抗性",
+  "affix.battlemages_garb:school_resist.desc": "%s %s",
+
+  "affix.battlemages_garb:max_mana": "法力泉涌",
+  "affix.battlemages_garb:max_mana.suffix": "法力泉涌",
+  "affix.battlemages_garb:max_mana.desc": "%s %s",
+
+  "affix.battlemages_garb:mana_regen": "法力涌动",
+  "affix.battlemages_garb:mana_regen.suffix": "法力涌动",
+  "affix.battlemages_garb:mana_regen.desc": "%s %s",
+
+  "affix.battlemages_garb:spell_power": "法术强化",
+  "affix.battlemages_garb:spell_power.suffix": "法术强化",
+  "affix.battlemages_garb:spell_power.desc": "%s %s",
+
+  "affix.battlemages_garb:cooldown_reduction": "冷却缩减",
+  "affix.battlemages_garb:cooldown_reduction.suffix": "冷却缩减",
+  "affix.battlemages_garb:cooldown_reduction.desc": "%s %s",
+
+  "affix.battlemages_garb:cast_time_reduction": "施法加速",
+  "affix.battlemages_garb:cast_time_reduction.suffix": "施法加速",
+  "affix.battlemages_garb:cast_time_reduction.desc": "%s %s",
+
+  "affix.battlemages_garb:summon_damage": "召唤强化",
+  "affix.battlemages_garb:summon_damage.suffix": "召唤强化",
+  "affix.battlemages_garb:summon_damage.desc": "%s %s",
+
+  "affix.battlemages_garb:casting_movespeed": "施法疾行",
+  "affix.battlemages_garb:casting_movespeed.suffix": "施法疾行",
+  "affix.battlemages_garb:casting_movespeed.desc": "%s %s",
+
+  "affix.battlemages_garb:spell_resist": "法术抗性",
+  "affix.battlemages_garb:spell_resist.suffix": "法术抗性",
+  "affix.battlemages_garb:spell_resist.desc": "%s %s",
+
+  "affix.battlemages_garb:spell_level": "法术升华",
+  "affix.battlemages_garb:spell_level.suffix": "法术升华",
+  "affix.battlemages_garb:spell_level.desc": "全部法术等级 +%s",
+
+  "affix.battlemages_garb:school_spell_level": "流派升华",
+  "affix.battlemages_garb:school_spell_level.suffix": "流派升华",
+  "affix.battlemages_garb:school_spell_level.desc": "主流派法术等级 +%s",
+
+  "affix.battlemages_garb:school_specialization": "学派专精",
+  "affix.battlemages_garb:school_specialization.suffix": "学派专精",
+  "affix.battlemages_garb:school_specialization.desc": "主流派 %s，其它流派 %s",
+
+  "affix.battlemages_garb:school_power_exalted": "学派精通·终极",
+  "affix.battlemages_garb:school_power_exalted.suffix": "学派精通·终极",
+  "affix.battlemages_garb:school_power_exalted.desc": "%s %s",
+
+  "affix.battlemages_garb:school_resist_greater": "学派抗性·进阶",
+  "affix.battlemages_garb:school_resist_greater.suffix": "学派抗性·进阶",
+  "affix.battlemages_garb:school_resist_greater.desc": "%s %s",
+
+  "text.battlemages_garb.affix_chance": "（%s%%）"
+}

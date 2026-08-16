@@ -1,0 +1,17 @@
+{
+  "type": "battlemages_garb:garb_attribute",
+  "definition": {
+    "affix_type": "stat",
+    "exclusive_set": [],
+    "weights": { "quality": 0.1, "weight": 15 }
+  },
+  "attribute": "irons_spellbooks:casting_movespeed",
+  "operation": "add_multiplied_base",
+  "values": {
+    "apotheosis:common":   { "min": 0.05, "max": 0.10 },
+    "apotheosis:uncommon": { "min": 0.08, "max": 0.15 },
+    "apotheosis:rare":     { "min": 0.12, "max": 0.20 },
+    "apotheosis:epic":     { "min": 0.16, "max": 0.25 },
+    "apotheosis:mythic":   { "min": 0.20, "max": 0.30 }
+  }
+}

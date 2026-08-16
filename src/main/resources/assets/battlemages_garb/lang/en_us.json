@@ -1,0 +1,69 @@
+{
+  "mod.battlemages_garb": "Battlemage's Garb",
+
+  "affix.battlemages_garb:school_power": "School Mastery",
+  "affix.battlemages_garb:school_power.suffix": "of School Mastery",
+  "affix.battlemages_garb:school_power.desc": "%s %s",
+
+  "affix.battlemages_garb:school_power_greater": "Greater School Mastery",
+  "affix.battlemages_garb:school_power_greater.suffix": "of Greater School Mastery",
+  "affix.battlemages_garb:school_power_greater.desc": "%s %s",
+
+  "affix.battlemages_garb:school_resist": "School Resistance",
+  "affix.battlemages_garb:school_resist.suffix": "of School Resistance",
+  "affix.battlemages_garb:school_resist.desc": "%s %s",
+
+  "affix.battlemages_garb:max_mana": "Mana Surge",
+  "affix.battlemages_garb:max_mana.suffix": "of Mana Surge",
+  "affix.battlemages_garb:max_mana.desc": "%s %s",
+
+  "affix.battlemages_garb:mana_regen": "Mana Flow",
+  "affix.battlemages_garb:mana_regen.suffix": "of Mana Flow",
+  "affix.battlemages_garb:mana_regen.desc": "%s %s",
+
+  "affix.battlemages_garb:spell_power": "Spell Power",
+  "affix.battlemages_garb:spell_power.suffix": "of Spell Power",
+  "affix.battlemages_garb:spell_power.desc": "%s %s",
+
+  "affix.battlemages_garb:cooldown_reduction": "Cooldown Reduction",
+  "affix.battlemages_garb:cooldown_reduction.suffix": "of Cooldown Reduction",
+  "affix.battlemages_garb:cooldown_reduction.desc": "%s %s",
+
+  "affix.battlemages_garb:cast_time_reduction": "Swift Casting",
+  "affix.battlemages_garb:cast_time_reduction.suffix": "of Swift Casting",
+  "affix.battlemages_garb:cast_time_reduction.desc": "%s %s",
+
+  "affix.battlemages_garb:summon_damage": "Summoning",
+  "affix.battlemages_garb:summon_damage.suffix": "of Summoning",
+  "affix.battlemages_garb:summon_damage.desc": "%s %s",
+
+  "affix.battlemages_garb:casting_movespeed": "Mobile Casting",
+  "affix.battlemages_garb:casting_movespeed.suffix": "of Mobile Casting",
+  "affix.battlemages_garb:casting_movespeed.desc": "%s %s",
+
+  "affix.battlemages_garb:spell_resist": "Spell Resistance",
+  "affix.battlemages_garb:spell_resist.suffix": "of Spell Resistance",
+  "affix.battlemages_garb:spell_resist.desc": "%s %s",
+
+  "affix.battlemages_garb:spell_level": "Spell Ascension",
+  "affix.battlemages_garb:spell_level.suffix": "of Spell Ascension",
+  "affix.battlemages_garb:spell_level.desc": "+%s Spell Levels",
+
+  "affix.battlemages_garb:school_spell_level": "School Ascension",
+  "affix.battlemages_garb:school_spell_level.suffix": "of School Ascension",
+  "affix.battlemages_garb:school_spell_level.desc": "+%s School Spell Levels",
+
+  "affix.battlemages_garb:school_specialization": "Specialization",
+  "affix.battlemages_garb:school_specialization.suffix": "of Specialization",
+  "affix.battlemages_garb:school_specialization.desc": "%s, other schools %s",
+
+  "affix.battlemages_garb:school_power_exalted": "Exalted School Mastery",
+  "affix.battlemages_garb:school_power_exalted.suffix": "of Exalted School Mastery",
+  "affix.battlemages_garb:school_power_exalted.desc": "%s %s",
+
+  "affix.battlemages_garb:school_resist_greater": "Greater School Resistance",
+  "affix.battlemages_garb:school_resist_greater.suffix": "of Greater School Resistance",
+  "affix.battlemages_garb:school_resist_greater.desc": "%s %s",
+
+  "text.battlemages_garb.affix_chance": " (%s%%)"
+}

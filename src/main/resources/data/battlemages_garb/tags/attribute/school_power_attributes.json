@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "irons_spellbooks:fire_spell_power",
+    "irons_spellbooks:ice_spell_power",
+    "irons_spellbooks:lightning_spell_power",
+    "irons_spellbooks:holy_spell_power",
+    "irons_spellbooks:ender_spell_power",
+    "irons_spellbooks:blood_spell_power",
+    "irons_spellbooks:evocation_spell_power",
+    "irons_spellbooks:nature_spell_power",
+    "irons_spellbooks:eldritch_spell_power"
+  ]
+}

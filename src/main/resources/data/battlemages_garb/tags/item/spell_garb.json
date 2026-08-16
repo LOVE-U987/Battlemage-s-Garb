@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#irons_spellbooks:armors/helmets",
+    "#irons_spellbooks:armors/chestplates",
+    "#irons_spellbooks:armors/leggings",
+    "#irons_spellbooks:armors/boots"
+  ]
+}

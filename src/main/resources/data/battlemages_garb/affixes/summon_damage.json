@@ -1,0 +1,17 @@
+{
+  "type": "battlemages_garb:garb_attribute",
+  "definition": {
+    "affix_type": "stat",
+    "exclusive_set": [],
+    "weights": { "quality": 0.1, "weight": 20 }
+  },
+  "attribute": "irons_spellbooks:summon_damage",
+  "operation": "add_multiplied_base",
+  "values": {
+    "apotheosis:common":   { "min": 0.05, "max": 0.08 },
+    "apotheosis:uncommon": { "min": 0.07, "max": 0.12 },
+    "apotheosis:rare":     { "min": 0.10, "max": 0.16 },
+    "apotheosis:epic":     { "min": 0.14, "max": 0.20 },
+    "apotheosis:mythic":   { "min": 0.18, "max": 0.25 }
+  }
+}

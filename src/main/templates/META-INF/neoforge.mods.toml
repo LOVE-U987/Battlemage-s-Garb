@@ -1,0 +1,83 @@
+# This is the neoforge.mods.toml file for Battlemage's Garb (法术战袍).
+# Placeholders are expanded by the Gradle generateModMetadata task.
+# WARNING: never write a literal dollar sign followed by an opening brace in this file (it is treated as a Groovy expression).
+
+# The name of the mod loader type to load - for regular FML @Mod mods it should be javafml
+modLoader="javafml" #mandatory
+
+# A version range to match for said mod loader - for regular FML @Mod it will be the FML version.
+loaderVersion="${loader_version_range}" #mandatory
+
+# The license for your mod. This is mandatory metadata.
+license="${mod_license}"
+
+# A URL to refer people to when problems occur with this mod
+#issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" #optional
+
+# A list of mods - how many allowed here is determined by the individual mod loader
+[[mods]] #mandatory
+
+# The modid of the mod
+modId="${mod_id}" #mandatory
+
+# The version number of the mod
+version="${mod_version}" #mandatory
+
+# A display name for the mod
+displayName="${mod_name}" #mandatory
+
+# A URL to query for updates for this mod.
+#updateJSONURL="https://change.me.example.invalid/updates.json" #optional
+
+# A URL for the "homepage" for this mod, displayed in the mod UI
+#displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
+
+# A file name (in the root of the mod JAR) containing a logo for display
+#logoFile="battlemages_garb.png" #optional
+
+# A text field displayed in the mod UI
+#credits="" #optional
+
+# The authors of the mod, displayed in the mod UI (optional)
+#authors=""
+
+# The description text for the mod (multi line!) (#mandatory)
+# 注意：不要使用 TOML 三引号字符串 '''...'''，它会与 Gradle expand(SimpleTemplateEngine) 冲突导致模板解析失败。
+# 这里用单行双引号字符串 + \\n 转义实现多行描述。
+description="为神化(Apotheosis)模组添加新的装备类型：法术战袍。\\n其神化词条为对应流派提供额外加成，弥补神化装备加成中缺少法师可用词条的问题。\\n\\nAdds a new equipment type to Apotheosis: the Spell Garb.\\nIts affixes grant school-specific bonuses for spellcasters, filling the gap of caster-friendly affixes in Apotheosis."
+
+# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
+[[dependencies.${mod_id}]] #optional
+    # the modid of the dependency
+    modId="neoforge" #mandatory
+    # The type of the dependency. Can be one of "required", "optional", "incompatible" or "discouraged" (case insensitive).
+    type="required" #mandatory
+    # The version range of the dependency
+    versionRange="[${neo_version},)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="irons_spellbooks"
+    type="required"
+    versionRange="[1.21.1-3.16.2,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="apotheosis"
+    type="required"
+    versionRange="[8.7.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+# 强化台潜在刷新结果显示词条概率所需的客户端 mixin
+[[mixins]]
+config="battlemages_garb.mixins.json"

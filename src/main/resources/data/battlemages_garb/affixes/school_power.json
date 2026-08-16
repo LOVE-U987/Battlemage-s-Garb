@@ -1,0 +1,17 @@
+{
+  "type": "battlemages_garb:school_attribute",
+  "definition": {
+    "affix_type": "stat",
+    "exclusive_set": [],
+    "weights": { "quality": 0.1, "weight": 30 }
+  },
+  "target": "power",
+  "operation": "add_multiplied_base",
+  "values": {
+    "apotheosis:common":   { "min": 0.03, "max": 0.06 },
+    "apotheosis:uncommon": { "min": 0.05, "max": 0.09 },
+    "apotheosis:rare":     { "min": 0.07, "max": 0.12 },
+    "apotheosis:epic":     { "min": 0.10, "max": 0.15 },
+    "apotheosis:mythic":   { "min": 0.12, "max": 0.18 }
+  }
+}

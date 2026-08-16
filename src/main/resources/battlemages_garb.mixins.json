@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.battlemages_garb.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "AugmentingScreenMixin",
+    "TooltipsUtilsMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

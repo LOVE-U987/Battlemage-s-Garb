@@ -1,0 +1,17 @@
+{
+  "type": "battlemages_garb:garb_attribute",
+  "definition": {
+    "affix_type": "stat",
+    "exclusive_set": [],
+    "weights": { "quality": 0.1, "weight": 25 }
+  },
+  "attribute": "irons_spellbooks:max_mana",
+  "operation": "add_value",
+  "values": {
+    "apotheosis:common":   { "min": 20, "max": 30 },
+    "apotheosis:uncommon": { "min": 30, "max": 45 },
+    "apotheosis:rare":     { "min": 40, "max": 60 },
+    "apotheosis:epic":     { "min": 55, "max": 80 },
+    "apotheosis:mythic":   { "min": 70, "max": 100 }
+  }
+}
