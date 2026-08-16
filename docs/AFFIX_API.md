@@ -20,6 +20,8 @@
 |---|---|---|
 | `battlemages_garb:school_attribute` | `SchoolAttributeAffix` | 根据战袍主加成流派，动态给对应流派属性加成（支持 `min_school_power` 概率浮动） |
 | `battlemages_garb:garb_attribute` | `GarbAttributeAffix` | 给法师盔甲添加固定属性加成（限定法术战袍） |
+| `battlemages_garb:spell_level` | `SpellLevelAffix` | 法术等级加成（`mode`：`global` 全部流派 / `school` 仅战袍主流派），通过 `ModifySpellLevelEvent` 叠加，tooltip 显示「基础等级（+加成）」 |
+| `battlemages_garb:school_specialization` | `SchoolSpecializationAffix` | 学派专精：主流派法术强度提升、其余流派降低（`bonus_values` / `penalty_values`） |
 
 ---
 
